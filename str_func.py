@@ -1,5 +1,21 @@
+
 def register(word):
     """
-    Эта фукция выводит текст в верхнем регистре
+    возврат текста в верхнем регистре
+    :param word:
+    :return:
     """
     return word.upper()
+
+
+
+def first_letter(word):
+    """
+    возврат текста в первой заглавной буквой
+    :param word:
+    :return:
+    """
+    return word.capitalize()
+
+
+
