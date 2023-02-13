@@ -8,6 +8,7 @@ def register(word):
     return word.upper()
 
 
+
 def first_letter(word):
     """
     возврат текста в первой заглавной буквой
